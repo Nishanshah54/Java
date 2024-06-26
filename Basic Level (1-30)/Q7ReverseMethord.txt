@@ -1,0 +1,13 @@
+1. Using a Loop
+    Iterate through the string from the end to the beginning.
+    Append each character to a new string.
+2. Using StringBuilder
+    Utilize StringBuilder's reverse() method.
+3. Using Recursion
+    Recursively call a function that slices the string and appends the first character at the end.
+ 4. Using a Stack
+    Push each character onto a stack.
+    Pop each character from the stack to form the reversed string.
+5. Using Java 8 Streams
+    Convert the string to a stream of characters.
+    Reverse the stream and collect it back to a string.

@@ -29,5 +29,6 @@ public class Q9_Sum_of_Elements_in_Array
             sum=list[i]+sum;
         }
         System.out.println( " \" \n the sum of the array is :"+sum);
+        sc.close();
     } 
 }

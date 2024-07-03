@@ -1,0 +1,39 @@
+@startuml
+
+actor Student
+actor Advisor
+actor Faculty
+actor Registrar
+actor Admissions
+actor EnrollmentServices as "Enrollment Services"
+
+usecase "Register for Classes" as UC1
+usecase "Approve Courses" as UC2
+usecase "Check Enrollments" as UC3
+usecase "Get Class List" as UC4
+usecase "Check Student Transcript" as UC5
+usecase "Lookup Student Information" as UC6
+usecase "Enter New Classes" as UC7
+usecase "Cancel Classes" as UC8
+usecase "Check Conflicts" as UC9
+usecase "Add New Students" as UC10
+usecase "Report on Retention" as UC11
+usecase "Update Student Information" as UC12
+usecase "Check Graduation Requirements" as UC13
+
+Student --> UC1
+Advisor --> UC1
+Advisor --> UC2
+Faculty --> UC3
+Faculty --> UC4
+Faculty --> UC5
+Faculty --> UC6
+Registrar --> UC7
+Registrar --> UC8
+Registrar --> UC9
+Admissions --> UC10
+EnrollmentServices --> UC11
+EnrollmentServices --> UC12
+EnrollmentServices --> UC13
+
+@enduml
